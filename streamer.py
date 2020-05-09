@@ -129,8 +129,9 @@ if __name__ == "__main__":
         level=logging.INFO,
         format='%(asctime)s|%(name)-6s[%(levelname)s] %(message)s'
     )
-    # create_index("twitter")
-    # create_index("twitter_mentions")
+    
+    create_index("twitter")
+    create_index("twitter_mentions")
 
     config_index("twitter")
     config_index("twitter_mentions")
